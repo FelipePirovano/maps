@@ -7,6 +7,10 @@
         android:protectionLevel="signature" />
     <uses-permission android:name="com.example.usuario.maps.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <uses-feature
@@ -21,10 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!-- Requerido pelo Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDeftug7ExPG1nbw7m5dWK8bMwch6O2GOA" />
+            android:value="AIzaSyCZGHDULTDNu0sH2bPJqexaoftRZk4ngNI" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
